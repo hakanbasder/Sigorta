@@ -1,0 +1,16 @@
+C:\Users\ibrahimpc\Desktop\çalışma\Sigorta\Sigorta\bin\Debug\Sigorta.exe
+C:\Users\ibrahimpc\Desktop\çalışma\Sigorta\Sigorta\bin\Debug\Sigorta.pdb
+C:\Users\ibrahimpc\Desktop\çalışma\Sigorta\Sigorta\obj\x86\Debug\Sigorta.Form1.resources
+C:\Users\ibrahimpc\Desktop\çalışma\Sigorta\Sigorta\obj\x86\Debug\Sigorta.Properties.Resources.resources
+C:\Users\ibrahimpc\Desktop\çalışma\Sigorta\Sigorta\obj\x86\Debug\Sigorta.csproj.GenerateResource.Cache
+C:\Users\ibrahimpc\Desktop\çalışma\Sigorta\Sigorta\obj\x86\Debug\Sigorta.exe
+C:\Users\ibrahimpc\Desktop\çalışma\Sigorta\Sigorta\obj\x86\Debug\Sigorta.pdb
+C:\Users\ibrahimpc\Desktop\çalışma\Sigorta\Sigorta\obj\x86\Debug\Sigorta.Kayit_Ol.resources
+C:\Users\ibrahimpc\Desktop\çalışma\Sigorta\Sigorta\bin\Debug\Sigorta.exe.config
+C:\Users\ibrahimpc\Desktop\çalışma\Sigorta\Sigorta\obj\x86\Debug\Sigorta.GirisSyafasi.resources
+C:\Users\ibrahimpc\Desktop\çalışma\Sigorta\Sigorta\obj\x86\Debug\Sigorta.csprojResolveAssemblyReference.cache
+C:\Users\ibrahimpc\Desktop\çalışma\Sigorta\Sigorta\obj\x86\Debug\Sigorta.MarkaEkle.resources
+C:\Users\ibrahimpc\Desktop\çalışma\Sigorta\Sigorta\obj\x86\Debug\Sigorta.ModelEkle.resources
+C:\Users\ibrahimpc\Desktop\çalışma\Sigorta\Sigorta\bin\Debug\en-JM\Sigorta.resources.dll
+C:\Users\ibrahimpc\Desktop\çalışma\Sigorta\Sigorta\obj\x86\Debug\Sigorta.Form1.en-JM.resources
+C:\Users\ibrahimpc\Desktop\çalışma\Sigorta\Sigorta\obj\x86\Debug\en-JM\Sigorta.resources.dll

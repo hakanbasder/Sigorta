@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E34152AD-5657-40CE-82E3-723BDFE2C61D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sigorta</RootNamespace>
+    <AssemblyName>Sigorta</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="form.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GirisSyafasi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GirisSyafasi.Designer.cs">
+      <DependentUpon>GirisSyafasi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kayit_Ol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kayit_Ol.Designer.cs">
+      <DependentUpon>Kayit_Ol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MarkaEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MarkaEkle.Designer.cs">
+      <DependentUpon>MarkaEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModelEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModelEkle.Designer.cs">
+      <DependentUpon>ModelEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sigortaDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sigortaDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="sigortaDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sigortaDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="sigortaDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sigortaDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="sigortaDataSet3.cs">
+      <DependentUpon>sigortaDataSet3.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="sigortaDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sigortaDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="sigortaDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sigortaDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="sigortaDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sigortaDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="sigortaDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sigortaDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="sigortaDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sigortaDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="sigortaDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sigortaDataSet8.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.en-JM.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GirisSyafasi.resx">
+      <DependentUpon>GirisSyafasi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kayit_Ol.resx">
+      <DependentUpon>Kayit_Ol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MarkaEkle.resx">
+      <DependentUpon>MarkaEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModelEkle.resx">
+      <DependentUpon>ModelEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="sigortaDataSet.xsc">
+      <DependentUpon>sigortaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="sigortaDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>sigortaDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="sigortaDataSet.xss">
+      <DependentUpon>sigortaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="sigortaDataSet1.xsc">
+      <DependentUpon>sigortaDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="sigortaDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>sigortaDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="sigortaDataSet1.xss">
+      <DependentUpon>sigortaDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="sigortaDataSet2.xsc">
+      <DependentUpon>sigortaDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="sigortaDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>sigortaDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="sigortaDataSet2.xss">
+      <DependentUpon>sigortaDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="sigortaDataSet3.xsc">
+      <DependentUpon>sigortaDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="sigortaDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>sigortaDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="sigortaDataSet3.xss">
+      <DependentUpon>sigortaDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="sigortaDataSet4.xsc">
+      <DependentUpon>sigortaDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="sigortaDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>sigortaDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="sigortaDataSet4.xss">
+      <DependentUpon>sigortaDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="sigortaDataSet5.xsc">
+      <DependentUpon>sigortaDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="sigortaDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>sigortaDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="sigortaDataSet5.xss">
+      <DependentUpon>sigortaDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="sigortaDataSet6.xsc">
+      <DependentUpon>sigortaDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="sigortaDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>sigortaDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="sigortaDataSet6.xss">
+      <DependentUpon>sigortaDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="sigortaDataSet7.xsc">
+      <DependentUpon>sigortaDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="sigortaDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>sigortaDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="sigortaDataSet7.xss">
+      <DependentUpon>sigortaDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="sigortaDataSet8.xsc">
+      <DependentUpon>sigortaDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="sigortaDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>sigortaDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="sigortaDataSet8.xss">
+      <DependentUpon>sigortaDataSet8.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
